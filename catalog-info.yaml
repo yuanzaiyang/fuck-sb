@@ -5,6 +5,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-id': dev-eks
     'backstage.io/kubernetes-namespace': ec
+    jenkins.io/job-full-name: plat-ops/ops-monitor
 spec:
   type: service
   lifecycle: production
