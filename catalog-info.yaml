@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dev-eks
+  annotations:
+    'backstage.io/kubernetes-id': dev-eks
+    'backstage.io/kubernetes-namespace': ec
